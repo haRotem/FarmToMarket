@@ -1,0 +1,31 @@
+body {
+    background-color: #FBF3D5;
+}
+
+.modal-dialog-wide {
+    max-width: 800px;
+}
+
+.quantity-selector {
+    display: flex;
+    background-color: #9CAFAA;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.quantity-selector button {
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.quantity-selector input {
+    background: transparent;
+    border: none;
+    color: white;
+    width: 20px;
+    text-align: center;
+    margin: 0 10px;
+}

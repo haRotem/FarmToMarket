@@ -1,6 +1,6 @@
 from sqlalchemy.orm import scoped_session, sessionmaker
 from .globals import Globals
-from .models import Product
+from .models import Product, ProductDetail
 
 
 class StockManager:
@@ -11,7 +11,7 @@ class StockManager:
     def add_item(self, item_data):
         new_item = Product(
             name=item_data['name'],
-            price=item_data['price'],
+            sku=self.db_session.query(ProductDetail).filter_by(name=item_data['name']).first().sku,
             quantity=item_data['quantity'],
             validity=item_data['validity'],
             farmer_id=self.farmer_id

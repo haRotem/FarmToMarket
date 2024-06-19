@@ -1,7 +1,7 @@
 
-DB_USERNAME = 'technicalUser'
-DB_PASSWORD = 'pass'
-DB_NAME = 'v1'
+DB_USERNAME = 'farmToMarketDbUser'
+DB_PASSWORD = 'pass123'
+DB_NAME = 'farmToMarket'
 
 
 class Config:

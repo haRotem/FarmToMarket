@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: #FBF3D5;
+}
+
+#routes-table {
+    margin-top: 120px;
+    border: 1px solid #ddd;
+    width: 80%;
+}
+
+#routes-table th, #routes-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#routes-table th {
+    background-color: #EFBC9B;
+}
