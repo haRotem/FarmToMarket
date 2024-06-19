@@ -431,7 +431,7 @@ products = [
     {'SKU': 'v11', 'name': 'Eggplant', 'quantity': 191, 'validity': '24-09-24', 'farmer': 'Evelyn_North_Farmer'},
     {'SKU': 'l5', 'name': 'Coriander', 'quantity': 351, 'validity': '24-10-03', 'farmer': 'Evelyn_North_Farmer'},
     {'SKU': 'v13', 'name': 'White cabbage', 'quantity': 143, 'validity': '24-09-22', 'farmer': 'Evelyn_North_Farmer'},
-    {'SKU': 'v21', 'name': 'Hot Pepper', 'quantity': 217, 'validity': '24-09-05', 'farmer': 'Evelyn_North_Farmer'},
+    {'SKU': 'v20', 'name': 'Hot Pepper', 'quantity': 217, 'validity': '24-09-05', 'farmer': 'Evelyn_North_Farmer'},
     {'SKU': 'v25', 'name': 'Squash', 'quantity': 196, 'validity': '24-09-11', 'farmer': 'Evelyn_North_Farmer'},
     {'SKU': 'f17', 'name': 'Hermon apple', 'quantity': 202, 'validity': '24-08-15', 'farmer': 'Evelyn_North_Farmer'},
     {'SKU': 'l1', 'name': 'Arugula', 'quantity': 180, 'validity': '24-08-29', 'farmer': 'Evelyn_North_Farmer'},
